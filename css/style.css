@@ -1,0 +1,146 @@
+body{
+    overflow-x: hidden;
+    }
+@font-face{
+
+        font-family: Roboto-Medium ;
+        src: url(../fonts/Roboto-Medium.ttf);
+        
+            }
+/* product  image & name  section*/
+.shop_headline{
+    font-family:Roboto-Medium ;
+    
+}
+.t-shirt_img{
+    height: 15rem;
+    display: inline-block;
+}
+
+
+
+.t-shirt_img{
+  float: left;
+  max-width: 60%;
+  border-radius: 5px;
+    
+}
+.product_info{
+    max-width: 100% ;
+}
+.product_info h3 {
+    display: inline;
+    margin-left: 15rem;
+    margin-top: 5rem;
+   font-size: 22px;
+   display: flex;
+   align-items:center;
+   font-weight: 600;
+   
+}
+.product_info h5 {
+    font-size: 16px;
+    margin-left: 15rem;
+    font-weight: 700;
+}
+/* end product image & name  section*/
+
+/* quantity section */
+
+.quantity_spinner{
+    display: inline;
+    position: relative;
+    top: 2rem;
+}
+.input_quantity{
+    width: 20%;
+    border-radius: 5px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.increment_btn{
+    border: hidden;
+    background-color: white;
+    font-weight: bolder;
+
+}
+.increment_btn:focus  {
+    outline: none;
+}
+
+.decrement_btn{
+    border: hidden;
+    background-color: white;
+    font-weight: bolder;
+}
+.decrement_btn:focus  {
+    outline: none;
+}
+
+.product_price{
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 4rem;
+    position: relative;
+    top: 2rem;
+}
+/* end quantity section */
+
+/*cancle_section*/
+.cancle-btn{
+    color: rgb(150, 150, 150);
+    font-size: 20px;
+    position: relative;
+    background-color: white;
+    top: 2.7rem;
+}
+.cancle-btn:focus,.cancle-btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+/*end_cancle_section*/
+
+/*footer*/
+.subtotal_headline{
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    bottom: 0.5rem;
+    right: -15rem;
+}
+.totals-value{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    bottom: 0.5rem;
+    right: -15rem;
+}
+.continue_link{
+    transition: all 0.5s ease-in-out;
+    margin-top: -5px;
+}
+.continue_link:hover{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
